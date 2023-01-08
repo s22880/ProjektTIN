@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.logo img{
+    width: 120px;
+    padding: 0 60px;
+    z-index: 2;
+    position: absolute;
+}
+.topnav{
+    height: 80px;
+    width: 100%;
+    background-color: #460406;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+}
+.topnav a{
+    color: white;
+}
+ul{
+    float: right;
+    margin-right: 40px;
+    font-size: 28px;
+}
+li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+.mainjpg img{
+    width: 100%;
+    height: auto;
+    opacity: 100%;
+}
