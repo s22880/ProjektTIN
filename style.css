@@ -36,3 +36,11 @@ li{
     height: auto;
     opacity: 100%;
 }
+footer{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #460406;
+    color: white;
+    padding: 15px;
+}
