@@ -5,10 +5,11 @@
     list-style: none;
 }
 .logo img{
-    width: 120px;
+    width: 200px;
     padding: 0 60px;
     z-index: 2;
     position: absolute;
+    border-radius: 0% 0% 40% 40%;
 }
 .topnav{
     height: 80px;
@@ -19,28 +20,57 @@
 }
 .topnav a{
     color: white;
+    border: 1px solid transparent;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+a.active{
+    border: 2px inset gold;
+}
+a:hover{
+    transition: 0.3s;
+    color:gold;
 }
 ul{
     float: right;
     margin-right: 40px;
-    font-size: 28px;
+    font-size: 24px;
+    opacity: 80%;
 }
 li{
     display: inline-block;
     margin: 0 8px;
     line-height: 80px;
-
+    padding-left: 80px;
 }
-.mainjpg img{
+.main img{
     width: 100%;
     height: auto;
-    opacity: 100%;
+}
+.main .text .motto{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+    font-size: 140px;
+    text-shadow: 5px 5px 10px #460406;
+    font-family:monospace;
+}
+.main .text .quote{
+    position: absolute;
+    font-size: 60px;
+    top: 85%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: gold;
 }
 footer{
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     background-color: #460406;
-    color: white;
+    color: gold;
     padding: 15px;
 }
